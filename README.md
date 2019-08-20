@@ -3,6 +3,7 @@
 **$ python json2csv.py example.json test.csv**
 
 **$ cat example.json**
+
 [
         {
                 "Name": "Debian",
@@ -56,6 +57,7 @@
 ]
 
 **$ cat test.csv**
+
 Name,Version,Install,Owner,Kernel
 Debian,9,apt,SPI,4.9
 Ubuntu,17.10,apt,Canonical,4.13
@@ -66,6 +68,7 @@ Arch Linux,Rolling Release,pacman,SPI,4.13
 Gentoo,Rolling Release,emerge,Gentoo Foundation,4.12
 
 **$ python json2csv.py wrong_file.json test.csv**
+
 JSON file error => Extra data: line 8 column 3 (char 100)
 
 **$ cat wrong_file.json**
