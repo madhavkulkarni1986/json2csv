@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ### Examples:
+=======
+###Examples:
+>>>>>>> cd605e1cb83b7f4437254a8389fa4802adb2a43b
 
 **$ python json2csv.py example.json test.csv**
 
