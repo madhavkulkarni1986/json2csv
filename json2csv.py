@@ -24,7 +24,7 @@ class json2csv:
 			print("JSON file error => %s" % str(e))
 
 if(__name__ == "__main__"):
-	if(len(sys.argv) > 2):
+	if(len(sys.argv) == 2):
 		jfile=sys.argv[1]
 		cfile=sys.argv[2]
 	else:
